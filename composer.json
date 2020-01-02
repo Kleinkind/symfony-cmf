@@ -35,5 +35,11 @@
         "branch-alias": {
             "dev-master": "2.1-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Kleinkind/core-bundle"
+        }
+    ]
 }
