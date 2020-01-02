@@ -15,10 +15,10 @@
         "doctrine/phpcr-bundle": "^1.3 || ^2.0",
         "doctrine/phpcr-odm": "^1.4.2 || ^2.0",
         "symfony-cmf/core-bundle": "dev-symfony5",
-        "symfony-cmf/content-bundle": "^2.1",
-        "symfony-cmf/menu-bundle": "^2.2",
-        "symfony-cmf/block-bundle": "^2.1",
-        "symfony-cmf/routing-bundle": "^2.1"
+        "symfony-cmf/content-bundle": "dev-symfony5",
+        "symfony-cmf/menu-bundle": "dev-symfony5",
+        "symfony-cmf/block-bundle": "dev-symfony5",
+        "symfony-cmf/routing-bundle": "dev-symfony5"
     },
     "require-dev": {
         "jackalope/jackalope-jackrabbit": "1.*"
@@ -40,6 +40,22 @@
         {
             "type": "vcs",
             "url": "https://github.com/Kleinkind/core-bundle"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Kleinkind/content-bundle"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Kleinkind/menu-bundle"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Kleinkind/block-bundle"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Kleinkind/routing-bundle"
         }
     ]
 }
